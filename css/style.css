@@ -7,3 +7,36 @@
 header {
     background-color: #fff;
 }
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 40px;
+
+    margin-top: 40px;
+
+    background-color: aquamarine;
+
+    
+}
+
+li {
+    list-style-type: none;
+
+    border: 3px solid green;
+    background-color: rgb(3, 32, 32);
+
+
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+
+    color: #fff;
+
+    padding: 10px 20px;
+}
