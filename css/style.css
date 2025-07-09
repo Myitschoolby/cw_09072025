@@ -7,3 +7,17 @@
 header {
     background-color: #fff;
 }
+
+.footer {
+    padding-block: 250px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer__logo {
+    display: inline-block;
+    margin-right: auto;
+}
