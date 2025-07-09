@@ -17,7 +17,28 @@ header {
     gap: 20px;
 }
 
-.footer__logo {
-    display: inline-block;
-    margin-right: auto;
+ul {
+    list-style-type: none;
+}
+
+.footer_logo {
+    margin: 20px 0px 50px 50px;
+}
+
+.footer__list {
+    margin: 20px 0 0 50px;
+
+}
+
+.footer__item_title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: aqua;
+}
+
+.footer__item {
+    font-size: 20px;
+    margin-bottom: 30px;
+    
+    color: #34e578;
 }
