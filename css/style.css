@@ -4,17 +4,21 @@
     box-sizing: border-box;
 }
 
-ul {
-    list-style-type: none;
+header {
+    background-color: #fff;
 }
 
 .footer {
-    background-color: #2a178a;
-    padding: 50px 0;
+    padding-block: 250px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
 
-    background-image: url("../bg.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+ul {
+    list-style-type: none;
 }
 
 .footer_logo {
